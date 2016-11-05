@@ -1,0 +1,24 @@
+{
+  "name": "dbsync",
+  "version": "1.0.0",
+  "description": "Sync DB to AWS",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.6.9",
+    "express": "^4.14.0",
+    "forever": "^0.15.2",
+    "knex": "^0.12.5",
+    "log4js": "^0.6.38",
+    "pg": "^6.1.0"
+  },
+  "devDependencies": {
+    "eslint": "^3.9.0",
+    "eslint-config-google": "^0.7.0"
+  }
+}
